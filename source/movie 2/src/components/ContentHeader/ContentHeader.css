@@ -1,0 +1,46 @@
+.contents {
+  .children.sticky {
+    margin-top: $content-header-height;
+  }
+  
+  .contentHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: $content-header-height;
+    padding: $content-padding;
+    position: relative;
+    color: $dark;
+    max-width: 100%;
+    width: 100%;
+
+    &.sticky {
+      color: $dark;
+      box-sizing: border-box;
+      position: relative;
+
+      @media (min-width: $large-screen) {
+        position: fixed;
+        left: $sidebar-width;
+        top: 0;
+        right: 0;
+        text-align: center;
+        width: calc(100% - $sidebar-width);
+      }
+    }
+
+    section {
+      display: flex;
+      align-items: center;
+    }
+
+    .item {
+      padding: 5px 0;
+      font-size: 1.1em;
+
+      &.title {
+        font-size: 1.6em;
+      }
+    }
+  }
+}
