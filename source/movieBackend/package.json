@@ -30,7 +30,7 @@
     "express": "^4.14.1",
     "express-boom": "^2.0.0",
     "jsdoc": "^3.4.3",
-    "jsonwebtoken": "^7.2.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.4",
     "memoizee": "^0.4.1",
     "moviedb": "^0.2.7",
